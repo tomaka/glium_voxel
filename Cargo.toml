@@ -1,0 +1,22 @@
+[package]
+
+name = "glium_voxel"
+version = "0.0.1"
+authors = [
+    "Ty Overby <ty@pre-alpha.com>",
+    "eddyb",
+    "Sven Nilsen <bvssvni@gmail.com>",
+    "tomaka <pierre.krieger1708@gmail.com>"
+]
+tags = []
+
+[lib]
+
+name = "glium_voxel"
+path = "src/lib.rs"
+
+[dependencies.glium]
+git = "https://github.com/tomaka/glium"
+
+[dependencies.vecmath]
+git = "https://github.com/PistonDevelopers/vecmath"
